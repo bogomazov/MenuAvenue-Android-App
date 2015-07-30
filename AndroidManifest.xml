@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.bogomazz.MenuAvenue"
+        android:versionCode="2"
+        android:versionName="1.01">
+    <uses-sdk android:minSdkVersion="16"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <supports-screens
+            android:smallScreens="true"
+            android:normalScreens="true"
+            android:largeScreens="true"
+            android:xlargeScreens="true"
+            android:resizeable="true"
+            android:anyDensity="true">
+    </supports-screens>
+
+    <application
+            android:icon="@drawable/rsz_logo_menuavenue" android:label="@string/app_name"
+            android:theme="@style/Theme.CustomTheme">
+        <activity
+                android:name=".Menu.ItemList.ItemsListActivity"
+                android:theme="@style/Theme.Customtabs">
+        </activity>
+        <activity
+                android:name=".Menu.Item.ItemActivity"
+                >
+        </activity>
+        <activity
+                android:name=".Order.OrderActivity">
+        </activity>
+        <activity
+                android:name=".Order.Checkout.CheckoutActivity">
+        </activity>
+        <activity
+                android:name=".SplashActivity"
+                android:theme="@style/NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".MainPane.MainActivity">
+        </activity>
+        <activity
+                android:name=".Menu.PizzaConstructor.PizzaConstructorActivity">
+        </activity>
+        <activity
+                android:theme="@style/NoTitleBar"
+                android:name=".Order.FinishOrderActivity">
+        </activity>
+
+    </application>
+</manifest>

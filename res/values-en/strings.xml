@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MenuAvenue</string>
+    <string name="present_bar">PRESENTS</string>
+    <string name="currency">UAH</string>
+    <string name="weight">g.</string>
+    <string name="menu">Menu</string>
+    <string name="busket">Order</string>
+    <string name="placeOrder">Place order!</string>
+    <string name="sum">Price:</string>
+    <string name="checkout">Checkout</string>
+    <string name="delivery">Delivery</string>
+    <string name="address">Delivery address</string>
+    <string name="city">City</string>
+    <string name="street">Street</string>
+    <string name="House">House</string>
+    <string name="flat">Flat</string>
+    <string name="information">Information</string>
+    <string name="phone">phone</string>
+    <string name="email">Email</string>
+    <string name="house">House number</string>
+    <string name="inOnHour">Deliver in one hour</string>
+    <string name="otherTime">Other time</string>
+    <string name="comment">Comment</string>
+    <string name="submitOrder">Done!</string>
+    <string name="ourSubsidary">Our subsidary</string>
+    <string name="in15minutes">In 15 minutes!</string>
+    <string name="capacity">l.</string>
+    <string name="thanksForUnderst">Thank you for understaning.</string>
+    <string name="beCarefull">Your order price shouldn\'t be less then 100 UAH.</string>
+    <string name="order">Order</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="internet_exception">No internet available! Check your internet connection settings.</string>
+    <string name="workInfo"> Every day from 10.00 to 23.00, on Fri-Sat until one o\'clock!!!</string>
+    <string name="baseSizeSmall">The average cake (30cm) - 43 UAH </string>
+    <string name="baseSizeBig">A large cake (40cm) - 53 UAH </string>
+    <string name="signUp">Sign up</string>
+    <string name="password">Password (more than 8 symbols)</string>
+    <string name="skip"><u>Skip</u></string>
+    <string name="signIn">Sign in</string>
+    <string name="pizzaConstructor">Pizza constructor</string>
+    <string name="wrongPassword">Wrong password</string>
+    <string name="sumForConstr">Cost</string>
+    <string name="selectIngredients">Choose ingredients!</string>
+    <string name="kiev">Kyiv</string>
+    <string name="contactInfo">Contacts</string>
+    <string name="thankForOrder">Thank you for your order!</string>
+    <string name="moveToMainPage">Move to the main page.</string>
+    <string name="deliveryDescription">Our administrator will call you in 5 minutes in order to confirm your purchase. Your order will be delivered in 30-60 minutes. Thank you for passion and welcome to Ukraine!</string>
+    <string-array name="nav_drawer_items">
+        <item >Menu</item>
+        <item >Presents</item>
+        <item >Pizza constructor</item>
+    </string-array>
+</resources>

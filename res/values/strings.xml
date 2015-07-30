@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MenuAvenue</string>
+    <string name="present_bar">Акции</string>
+    <string name="currency">грн</string>
+    <string name="weight">г</string>
+    <string name="menu">Меню</string>
+    <string name="busket">Корзина</string>
+    <string name="placeOrder">Заказать</string>
+    <string name="sum">Ваш заказ на суму:</string>
+    <string name="checkout">Оформление заказа</string>
+    <string name="delivery">Доставка</string>
+    <string name="pickup">Самовывоз</string>
+    <string name="address">Адрес доставки</string>
+    <string name="city">Город</string>
+    <string name="street">Улица</string>
+    <string name="house">Номер дома</string>
+    <string name="flat">Квартира</string>
+    <string name="information">Информация</string>
+    <string name="phone">Номер телефона</string>
+    <string name="email">Email</string>
+    <string name="inOnHour">Доставить через час</string>
+    <string name="otherTime">Другое время</string>
+    <string name="comment">Комментарий</string>
+    <string name="submitOrder">Готово!</string>
+    <string name="ourSubsidary">Наше отделение</string>
+    <string name="in15minutes">Через 15 минут!</string>
+    <string name="thanksForUnderst">Спасибо за понимание</string>
+    <string name="beCarefull">Ваш заказ должен быть не меньше 100 грн.</string>
+    <string name="capacity">л.</string>
+    <string name="order">Заказать!</string>
+    <string name="cancel">Отменить</string>
+    <string name="submit">Применить</string>
+    <string name="internet_exception">Интернет не доступен, проверьте подключение к интернету.</string>
+    <string name="phoneNumber"><u>590 04 04</u></string>
+    <string name="phoneNumberWork">044 590 04 04</string>
+    <string name="workInfo"> Ежедневно с 10.00 до 23.00, в Пт-Сб до часу ночи!!!</string>
+    <string name="menuAvenueWebsite"> Visit our website</string>
+    <string name="menuAvenueLink"><u>menuavenue.com.ua</u></string>
+    <string name="MenuAvenueLink">http://www.menuavenue.ua</string>
+    <string name="bogomazzWebsite">Designed by  </string>
+    <string name="bogomazzLink"><u>Bogomazz inc.</u></string>
+    <string name="BogomazzLink">http://bogomazz.com</string>
+    <string name="baseSizeSmall">Средний корж(30см) - 43 грн</string>
+    <string name="baseSizeBig">Большой корж (40 см) - 53 грн</string>
+    <string name="pizzaConstructor">Конструктор пиццы</string>
+    <string name="password">Пароль</string>
+    <string name="passwordLimit">(не менее 8 символов)</string>
+    <string name="signUp">Вход и регистрация</string>
+    <string name="skip"><u>Пропустить регистрацию.</u></string>
+    <string name="signIn">Вход</string>
+    <string name="wrongPassword">Неправильный пароль</string>
+    <string name="sumForConstr">Сумма</string>
+    <string name="kiev">Киев</string>
+    <string name="contactInfo">Контакты</string>
+    <string name="moveToMainPage">Перейти на главную.</string>
+    <string name="selectIngredients">Выберите ингридиенты.</string>
+    <string name="thankForOrder">Спасибо за ваш заказ!</string>
+    <string name="deliveryDescription">В течении 5 минут с вами свяжеться наш оператор, для подтверждения заказа.
+        Ваш заказ будет доставлен в течении 30-60мин.</string>
+
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Меню</item>
+        <item >Акции</item>
+        <item >Конструктор пиццы</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_action_search</item>
+        <item>@drawable/ic_action_about</item>
+        <item>@drawable/ic_action_about</item>
+    </array>
+    <array name="toppingsDrawable">
+        <item>@drawable/ic_action_search
+        </item>
+        <item>@drawable/ic_action_about</item>
+        <item>@drawable/ic_action_about</item>
+        <item>@drawable/ic_action_about</item>
+        <item>@drawable/ic_action_about</item>
+    </array>
+    <array name="toppings">
+        <item>@array/cheese</item>
+        <item>@array/meat</item>
+        <item>@array/vegetables</item>
+        <item>@array/seafood</item>
+        <item>@array/spices</item>
+    </array>
+    <string-array name="cheese">
+        <item >Голандский</item>
+        <item >Моцарелла</item>
+        <item >Ементаль</item>
+    </string-array>
+    <string-array name="meat">
+        <item >Голандский</item>
+        <item >Моцарелла</item>
+        <item >Ементаль</item>
+    </string-array>
+    <string-array name="vegetables">
+        <item >Голандский</item>
+        <item >Моцарелла</item>
+        <item >Ементаль</item>
+    </string-array>
+    <string-array name="seafood">
+        <item >Голандский</item>
+        <item >Моцарелла</item>
+        <item >Ементаль</item>
+    </string-array>
+    <string-array name="spices">
+        <item >Голандский</item>
+        <item >Моцарелла</item>
+        <item >Ементаль</item>
+    </string-array>
+
+
+</resources>

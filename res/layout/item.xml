@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="fill_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+            android:background="@color/white">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+        <ImageView android:layout_width="300dp" android:layout_height="275dp"
+                android:id="@+id/itemImage"
+                android:layout_gravity="center"/>
+
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/weight"
+                    android:textSize="27sp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/weight_textview"
+                    android:padding="4dp"
+                    android:layout_marginBottom="1dp"
+                />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:id="@+id/quantity"
+                    android:layout_centerInParent="true"
+                    android:textSize="27sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/quantity_textview"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:id="@+id/plus"
+                       android:layout_alignParentRight="true"
+                       android:layout_marginRight="10dp"
+                       android:layout_marginLeft="5dp"
+                       android:textSize="27sp"
+                       android:text="Заказать"
+                    />
+        </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+                          android:orientation="horizontal"
+                          android:id="@+id/secondPizza"
+                            android:visibility="gone">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:id="@+id/weight2"
+                          android:textSize="27sp"
+                          android:layout_marginLeft="10dp"
+                          android:background="@drawable/weight_textview"
+                          android:padding="4dp"
+                          android:layout_marginTop="1dp"
+                          />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:id="@+id/quantity2"
+                          android:layout_centerInParent="true"
+                          android:textSize="27sp"
+                          android:background="@drawable/quantity_textview"
+                          android:textColor="@color/white"
+                          android:paddingLeft="5dp"
+                          android:paddingRight="5dp"
+                          />
+                <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                           android:id="@+id/plus2"
+                           android:layout_alignParentRight="true"
+                           android:layout_marginRight="10dp"
+                           android:layout_marginLeft="5dp"
+                           android:textSize="27sp"
+                           />
+        </RelativeLayout>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+                android:id="@+id/ingredients"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

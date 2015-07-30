@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:background="@color/orange_darker">
+    <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="-5dp"
+            android:text="New Button"
+            android:id="@+id/backButton"
+            android:background="@drawable/ic_action_back"
+            />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/title"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            />
+    <FrameLayout android:layout_width="50dp" android:layout_height="fill_parent"
+                 android:padding="3dp"
+                 android:layout_alignParentRight="true">
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="New Button"
+                android:id="@+id/checkout"
+                android:background="@drawable/custom_button_checkout"
+                />
+    </FrameLayout>
+
+</RelativeLayout>

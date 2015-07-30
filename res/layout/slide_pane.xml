@@ -1,0 +1,90 @@
+<android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- Framelayout to display Fragments -->
+    <FrameLayout
+            android:id="@+id/frame_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    <!-- Listview to display slider menu -->
+    <ScrollView android:layout_height="match_parent" android:layout_width="240dp"
+            android:background="@color/white"
+            android:layout_gravity="start">
+        <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/list_slidermenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="singleChoice"
+                android:divider="@color/white"
+                android:dividerHeight="1dp"
+                android:clickable="true">
+            <ImageView android:layout_width="150dp" android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/logo"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    android:layout_below="@+id/logo"
+                    android:id="@+id/social">
+                <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                        android:layout_gravity="left"/>
+                <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                        android:layout_gravity="right"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:id="@+id/menuList"
+                    android:orientation="vertical"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:id="@+id/callNumber"
+                    android:text="@string/phoneNumber"
+                    android:textStyle="bold"
+                    android:textSize="40sp"
+                    android:textColor="@color/orange"
+                    android:gravity="center"
+                    android:layout_above="@+id/workInfo"
+                    android:layout_marginBottom="10dp"
+                    />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/workInfo"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:background="@drawable/txt_background_menu"
+                    android:textColor="@color/orange_darker"
+                    android:id="@+id/workInfo"
+                    android:layout_above="@+id/web"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/web">
+                <ImageView android:layout_width="50dp" android:layout_height="50dp"
+                           android:background="@drawable/facebook"
+                        android:layout_margin="5dp"
+                        android:id="@+id/facebook"/>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+                        android:orientation="vertical">
+                   <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                           android:text="@string/menuAvenueWebsite"/>
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:text="@string/menuAvenueLink"
+                            android:textColor="@color/blueDark"
+                            android:id="@+id/menuavenueLink"/>
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                                  android:text="@string/bogomazzWebsite"/>
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                                  android:text="@string/bogomazzLink"
+                                android:textColor="@color/blueDark"
+                                android:id="@+id/bogomazzLink"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        android:background="@color/white">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/thankForOrder"
+            android:textSize="28sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:id="@+id/thanksForOrder"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/deliveryDescription"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/thanksForOrder"
+            android:textColor="@color/brown"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/best_wishes"
+            android:layout_above="@+id/moveToMainPage"
+            android:id="@+id/imageView"/>
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:text="@string/moveToMainPage"
+            android:id="@+id/moveToMainPage"
+            android:layout_margin="20dp"
+
+            android:layout_alignParentBottom="true"
+            />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange">#F5A142</color>
+    <color name="orange_darker">#e77026</color>
+    <color name="white">#ffffffff</color>
+    <color name="brown">#724229</color>
+    <color name="pinkorange">#fcf3df</color>
+    <color name="pinkorangetransperant">#eefcf3df</color>
+    <color name="green">#96ba18</color>
+    <color name="transparent">#eeffffff</color>
+    <color name="salad">#d8d024</color>
+    <color name="blueDark">#0000EE</color>
+    <color name="red">#FF0000</color>
+    <color name="ora">#Fcf5e5</color>
+</resources>

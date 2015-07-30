@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:descendantFocusability="blocksDescendants">
+
+    <ImageView android:layout_width="175dp" android:layout_height="150dp"
+               android:id="@+id/itemImage"
+               android:layout_marginLeft="-20dp"
+            android:src="@drawable/logo_menuavenue"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+               android:src="@drawable/ic_action_next_item"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="-10dp"
+               android:layout_alignParentTop="true"
+               android:padding="10dp"
+               android:id="@+id/arrow"
+            />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_toRightOf="@+id/itemImage"
+              android:layout_toLeftOf="@+id/arrow"
+              android:layout_marginLeft="-30dp"
+              android:text="Салат с тунцомыфп"
+              android:layout_marginTop="10dp"
+              android:textSize="16sp"
+              android:id="@+id/itemName"
+              android:textColor="#000"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/cost"
+            android:layout_above="@+id/cost"
+            android:text="40 cm"
+            android:textSize="20sp"
+            android:id="@+id/weight2"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:focusable="false"
+            />
+    <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/minus"
+            android:layout_alignLeft="@+id/weight"
+            android:layout_above="@+id/weight"
+            android:text="40 cm"
+            android:textSize="15sp"
+            android:id="@+id/cost"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:focusable="false"
+            android:clickable="false"
+            android:background="@drawable/btn_toggle"
+    />
+    <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/minus"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:text="30 cm"
+            android:textSize="15sp"
+            android:id="@+id/weight"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:focusable="false"
+            android:clickable="false"
+            android:checked="true"
+            android:background="@drawable/btn_toggle"
+            />
+    <Button
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@+id/quantity"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dip"
+            android:layout_marginRight="5dp"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:id="@+id/minus"
+            android:text="-"
+            android:textColor="@drawable/btn_textcolor"
+            android:background="@drawable/btn"
+            android:focusable="false"
+
+            />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_toLeftOf="@+id/plus"
+              android:layout_alignParentBottom="true"
+              android:layout_marginBottom="10dp"
+              android:text="1"
+              android:textSize="20sp"
+              android:id="@+id/quantity"
+              android:padding="10dp"
+              android:background="@drawable/quantity_textview"
+              android:textColor="@color/white"/>
+    <Button
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dip"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="35sp"
+            android:id="@+id/plus"
+            android:text="+"
+            android:textColor="@drawable/btn_textcolor"
+            android:background="@drawable/btn"
+            android:focusable="false"
+
+            />
+
+</RelativeLayout>
